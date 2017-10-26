@@ -365,6 +365,7 @@ public class LocalPlayerActivity extends AppCompatActivity {
             }
         });
         remoteMediaClient.load(mSelectedMedia, autoPlay, position);
+        remoteMediaClient.pause();
     }
 
     private void setCoverArtStatus(String url) {
